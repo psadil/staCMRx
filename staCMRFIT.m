@@ -39,4 +39,4 @@ end
 if ~iscell(E)
     E = adj2cell(E); % convert from adjacency matrix form
 end
-[p, datafit, fits, maxbad, times] = jCMRfitsx(nsample,y, model, E, shrink, -1);
+[p, datafit, fits] = jCMRfitsx(nsample,y, model, E, shrink, -1);
